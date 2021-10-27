@@ -5,6 +5,7 @@ VERSION 1
 A MATLAB script, several bugs to be worked out.
 
 In the first section of the code, put in settings:
+```MATLAB
 ZOFFSET = 0; %vertical offset (mm)
 flipped = 0; %flip geometry horizontally? (0=No,1=Yes)
 
@@ -49,3 +50,4 @@ contourthickness = 4; %total contoured thickness, mm
 num_contourlayers = contourthickness/contourlayerheight; %number of contoured layers
 num_topcontour = 2; %number of upper contoured layers (not support)
 num_topborder = 2; %number of border lines in the upper contoured layers
+```
